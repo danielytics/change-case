@@ -9,7 +9,7 @@ interface Locale {
 /**
  * Source: ftp://ftp.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
  */
-const SUPPORTED_LOCALE: Record<string, Locale> = {
+const SUPPORTED_LOCALE: Record<string, Locale> = {/*
   tr: {
     regexp: /\u0130|\u0049|\u0049\u0307/g,
     map: {
@@ -37,7 +37,7 @@ const SUPPORTED_LOCALE: Record<string, Locale> = {
       Ĩ: "\u0069\u0307\u0303",
     },
   },
-};
+*/};
 
 /**
  * Localized lower case.
