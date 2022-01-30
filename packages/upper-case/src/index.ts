@@ -9,7 +9,7 @@ interface Locale {
 /**
  * Source: ftp://ftp.unicode.org/Public/UCD/latest/ucd/SpecialCasing.txt
  */
-const SUPPORTED_LOCALE: Record<string, Locale> = {
+const SUPPORTED_LOCALE: Record<string, Locale> = {/*
   tr: {
     regexp: /[\u0069]/g,
     map: {
@@ -33,7 +33,7 @@ const SUPPORTED_LOCALE: Record<string, Locale> = {
       i̇̃: "\u0128",
     },
   },
-};
+*/};
 
 /**
  * Localized upper case.
