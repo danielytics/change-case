@@ -1,3 +1,5 @@
+This fork is identical to upstream, except that it removes the locale-specific special cases from `upper-case` and `lower-case` until [Google Closure Compiler supports it](https://github.com/google/closure-compiler/issues/3639).
+
 # Change Case
 
 [![Build status](https://img.shields.io/travis/blakeembrey/change-case.svg?style=flat)](https://travis-ci.com/blakeembrey/change-case)
